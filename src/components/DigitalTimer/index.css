@@ -1,0 +1,112 @@
+.main-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image:linear-gradient(to right,#ffffff,#cffcf1);
+    background-size:cover;
+    height:100vh;
+}
+.heading{
+    color:#1e293b;
+    font-size:25px;
+    font-weight: bold;
+}
+.contain{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width:100%;
+}
+
+@media screen and (max-width:576px) {
+        .contain{
+            flex-direction: column;
+        }
+}
+.con1{
+    background-image:url("https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png");
+    background-size:cover;
+    background-position: center;
+    padding:14%;
+}
+.con{
+    background-color:white;
+    border-radius: 65%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding:35px;
+}
+.time{
+    margin:0px;
+    color:#00d9f5;
+    font-size:30px;
+    font-weight: bold;
+}
+.status{
+    margin:0px;
+    color:#0f172a;
+    font-size:20px;
+}
+.con2{
+    display:flex;
+    flex-direction: column;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+.image{
+    width:30px;
+}
+.startCon{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.start{
+    font-size:30px;
+    font-weight: bold;
+    color:#0f172a;
+}
+.para{
+    font-size: 20px;
+    color:#0f172a;
+    text-align: center;
+}
+.set{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.minus{
+    background-color: transparent;
+    border:none;
+    font-size:30px;
+    cursor: pointer;
+}
+.number{
+    background-image:url("https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png");
+    background-position:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80px;
+    height:40px;
+    border-radius: 10px;
+}
+.num{
+    font-size:30px;
+    font-weight: bold;
+}
